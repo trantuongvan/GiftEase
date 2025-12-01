@@ -135,8 +135,8 @@ if (modal) {
                     <h2 class="modal-title">${p.name}</h2>
                     <p class="modal-price">${price}</p>
                     <div class="modal-section"><h4>Mô tả:</h4><p>${p.desc_long}</p></div>
-                    <div class="modal-section reason-box-modal"><h4>💡 Tại sao nên mua?</h4><p>${p.reason_to_buy}</p></div>
-                    <a href="${p.link}" target="_blank" class="btn btn-primary full-width">🛍️ Xem nơi bán</a>
+                    <div class="modal-section reason-box-modal"><h4>Tại sao nên mua?</h4><p>${p.reason_to_buy}</p></div>
+                    <a href="${p.link}" target="_blank" class="btn btn-primary full-width">Xem nơi bán</a>
                 </div>
             </div>`;
         modal.classList.remove('hidden');
