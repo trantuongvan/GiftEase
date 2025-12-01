@@ -70,7 +70,7 @@ if (resultContainer) {
             renderResultList(results, userAnswers);
         } catch (err) {
             console.error(err);
-            alert('Lỗi tải dữ liệu (Cần chạy trên Live Server)');
+            alert('Lỗi tải dữ liệu, vui lòng tải lại trang.');
         }
     }
 
