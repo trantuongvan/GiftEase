@@ -1,4 +1,4 @@
-const DATA_URL = '../data/data.json';
+const DATA_URL = './data/data.json';
 let allProducts = [];
 
 const questions = [
