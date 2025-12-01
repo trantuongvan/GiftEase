@@ -1,0 +1,85 @@
+:root {
+  --color-primary: #ffd54f;
+  --color-primary-hover: #ffca28;
+  --color-secondary: #fff8e1;
+  --color-text-main: #3e2723;
+  --color-text-light: #5d4037;
+  --color-white: #ffffff;
+  --color-border: #3e2723;
+  --color-highlight: #c63c3c;
+
+  --font-heading: "Montserrat Alternates", sans-serif;
+  --font-body: "Be Vietnam Pro", sans-serif;
+
+  --fs-h1: 4.8rem;
+  --fs-h2: 3.2rem;
+  --fs-h3: 2rem;
+  --fs-body: 1.6rem;
+  --fs-small: 1.4rem;
+  --fs-btn: 1.8rem;
+
+  --spacing-xs: 0.8rem;
+  --spacing-sm: 1.6rem;
+  --spacing-md: 2.4rem;
+  --spacing-lg: 4.8rem;
+  --spacing-xl: 8rem;
+
+  --border-width: 1.5px;
+  --border-style: solid;
+  --border-std: var(--border-width) var(--border-style) var(--color-border);
+  --radius-std: 1.2rem;
+  --radius-btn: 0.8rem;
+
+  --container-width: 1200px;
+  --header-height: 8rem;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: var(--font-body);
+  font-size: var(--fs-body);
+  color: var(--color-text-main);
+  background-color: var(--color-secondary);
+  line-height: 1.6;
+}
+img {
+  max-width: 100%;
+  display: block;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+ul {
+  list-style: none;
+}
+button {
+  border: none;
+  background: none;
+  font-family: inherit;
+  cursor: pointer;
+  outline: none;
+}
+.hidden {
+  display: none !important;
+}
+
+.container {
+  max-width: var(--container-width);
+  margin: 0 auto;
+  padding: 0 var(--spacing-md);
+}
+.highlight {
+  background-color: var(--color-primary);
+  padding: 0 0.4rem;
+  border-radius: 0.4rem;
+  white-space: nowrap;
+}
